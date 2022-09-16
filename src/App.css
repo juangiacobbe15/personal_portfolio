@@ -1,38 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;500;600;700&display=swap');
+
+:root {
+  --white: #ffff;
+  --black: #0000;
+
+  --bg: #0b0c10;
+  --gray: #1f2833;
+  --pastel: #c5c6c7;
+  --lightblue: #66fcf1;
+  --green: #45a29e;
+
+  --transition:all .3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 .App {
-  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg);
+  color: var(--lightblue)
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn {
+  font-family: 'Roboto Slab', sans-serif;
+  padding: .7rem;
+  border: 2px solid var(--lightblue);
+  border-radius: .5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--lightblue);
+  background-color: var(--bg);
+  cursor: pointer;
+  transition: var(--transition);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover {
+  color: var(--bg);
+  border: 2px solid var(--bg);
+  background-color: var(--lightblue);
 }
