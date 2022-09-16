@@ -1,6 +1,6 @@
-
 import ProjectCard from '../project-card/ProjectCard';
 
+import './projects.css';
 
 export default function Projects() {
     return (

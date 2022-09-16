@@ -3,9 +3,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
+    height: 15vh;
 }
 
 .logo {
+    color: var(--lightblue);
     font-size: 1.5rem;
     font-weight: 600;
     cursor: pointer;
@@ -23,7 +25,20 @@
 }
 
 .icons {
+    display: flex;
+    align-items: center;
     margin: 0 2rem;
+}
+
+.icon {
+    margin: 0 .7rem;
+    font-size: 1.5rem;
+    color: var(--lightblue);
+    transition: var(--transition);
+}
+
+.icon:hover {
+    color: var(--pastel);
 }
 
 .list {
@@ -35,7 +50,10 @@
     color: var(--lightblue);
     margin: 0 10px;
 }
-
+.active {
+    color: var(--pastel);
+    font-weight: 600;
+}
 .link:hover {
     font-weight: 600;
 }

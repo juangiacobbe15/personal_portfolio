@@ -1,0 +1,35 @@
+.contact {
+    min-height: 77vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.input {
+    border: 2px solid var(--lightblue);
+    border-radius: .5rem;
+    font-size: 1.1rem;
+    padding: .7rem;
+    color: var(--white);
+    background-color: transparent;
+    outline: none;
+}
+
+.msg {
+    min-width: 30vw;
+    max-width: 30vw;
+    min-height: 25vh;
+    max-height: 25vh;
+    margin-bottom: 1rem;
+}
+
