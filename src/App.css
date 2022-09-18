@@ -32,6 +32,12 @@ a {
   text-decoration: none;
 }
 
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 0 0 2.5rem 0;
+}
+
 .btns-container {
   margin-top: 1rem;
 }

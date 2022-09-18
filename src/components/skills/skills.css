@@ -1,0 +1,18 @@
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.skills-grid {
+    padding: 2rem;
+    width: 50vw;
+  /* height: 100vh; */
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+}

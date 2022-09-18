@@ -1,13 +1,14 @@
 .project-card {
     display: flex;
     justify-content: center;
-    text-align: center; 
+    text-align: center;
+    flex-direction: column; 
     border-radius: .5rem;
     border: 2px solid var(--green);
 }
 
 .project-text {
-    padding: 2rem 1rem;
+    padding: 2rem 0.5rem;
 }
 
 .project-title {

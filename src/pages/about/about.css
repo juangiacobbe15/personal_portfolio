@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 77vh;
+    /* min-height: 77vh; */
 }
 
 .about-grid {

@@ -3,11 +3,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 
 import Navbar from './components/navbar/Navbar';
-import Home from './components/home/Home';
-import About from './components/about/About';
-import Projects from './components/projects/Projects';
-import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
+import About from './pages/about/About';
+import Home from './pages/home/Home';
+import Projects from './pages/projects/Projects';
+import Contact from './pages/contact/Contact';
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
 
         </Routes>
       </BrowserRouter>
-      <Footer />
     </div>
   );
 }

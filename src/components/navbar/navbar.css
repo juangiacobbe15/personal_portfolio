@@ -24,23 +24,6 @@
     flex-direction: row;
 }
 
-.icons {
-    display: flex;
-    align-items: center;
-    margin: 0 2rem;
-}
-
-.icon {
-    margin: 0 .7rem;
-    font-size: 1.5rem;
-    color: var(--lightblue);
-    transition: var(--transition);
-}
-
-.icon:hover {
-    color: var(--pastel);
-}
-
 .list {
     display: flex;
     flex-direction: row;
@@ -49,11 +32,9 @@
 .link {
     color: var(--lightblue);
     margin: 0 10px;
-}
-.active {
-    color: var(--pastel);
     font-weight: 600;
 }
+
 .link:hover {
-    font-weight: 600;
+    color: var(--pastel);
 }

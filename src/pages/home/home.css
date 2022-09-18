@@ -1,10 +1,9 @@
-.home {
+/* .home {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    height: 77vh;
 }
 
 .home-text {
@@ -41,4 +40,4 @@
 
 @keyframes blink {
     50% {border-color: transparent}
-}
+} */

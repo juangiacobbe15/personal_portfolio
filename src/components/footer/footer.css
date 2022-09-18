@@ -1,4 +1,22 @@
 .footer {
-    /* background-color: red; */
-    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.icons {
+    padding: 2rem;    
+}
+
+.icon {
+    margin: 0 2rem;
+    font-size: 4rem;
+    color: var(--lightblue);
+    transition: var(--transition);
+}
+
+.icon:hover {
+    color: var(--pastel);
 }

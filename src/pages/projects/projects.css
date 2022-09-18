@@ -1,0 +1,14 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects-grid {
+    padding:  0 0 1rem 0;
+    width: 70vw;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
+}
