@@ -7,7 +7,7 @@
 }
 
 .about-home-grid {
-    padding: .5rem;
+    margin-bottom: 1rem;
     display: grid;
     width: 70vw;
     gap: 1rem;

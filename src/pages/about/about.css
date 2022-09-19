@@ -2,10 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* min-height: 77vh; */
 }
 
 .about-grid {
+    margin-bottom: 2rem;
     display: grid;
     height: 50%;
     gap: 1rem;

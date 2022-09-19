@@ -61,7 +61,7 @@ a {
 }
 
 .btn {
-  margin: 0 1rem;
+  margin-right: 2rem;
   font-family: 'Roboto Slab', sans-serif;
   padding: .7rem;
   border: 2px solid var(--lightblue);

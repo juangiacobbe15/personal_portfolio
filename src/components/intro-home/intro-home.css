@@ -10,6 +10,7 @@
 .home-text {
     font-size: 2rem;
     color: var(--white);
+    margin-bottom: 1rem;
 }
 
 .home-name {
