@@ -3,6 +3,7 @@ import ViewMoreBtn from "../view-more-btn/ViewMoreBtn";
 import './about-home.css';
 
 export default function AboutHome() {
+
     return (
         <section className="about-home">
             <div className="about-home-grid">
@@ -13,7 +14,7 @@ export default function AboutHome() {
                         consectetur aut maxime sunt porro sapiente.</p>
                 </div>
 
-                <div className="about-home-img">
+                <div className="about-home-img" data-aos='fade-right'>
                     <img src="https://tse2.mm.bing.net/th?id=OIP.LfYPMTYF5U9QEHJCiVRorQHaEK&pid=Api&P=0" 
                         alt="juan" 
                     />

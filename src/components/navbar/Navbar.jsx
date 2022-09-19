@@ -6,8 +6,8 @@ export default function Navbar() {
     return (
         <>
             <nav className="navbar">
-                <NavLink to='' className='logo' exact>JIG</NavLink>
-                <div className="navigation"> 
+                <NavLink to='' className='logo' data-aos='fade-down' exact >JIG</NavLink>
+                <div className="navigation" data-aos='fade-right'> 
                     <ul className="list">
                         <li>
                             <NavLink to='/' className='link' exact>Home</NavLink>

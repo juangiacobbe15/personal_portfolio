@@ -7,7 +7,7 @@ export default function ProjectsHome() {
     return (
         <section className="projects-home">
             <h1 className='section-title'>My work</h1>
-            <div className="projects-home-grid">
+            <div className="projects-home-grid" data-aos="fade-in" data-aos-delay='500'>
                 <ProjectHomeCard />
                 <ProjectHomeCard />
                 <ProjectHomeCard />
