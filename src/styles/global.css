@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
 
 :root {
   --white: #ffff;
@@ -27,7 +28,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(transparent, var(--lightblue));
+  background-color: var(--lightblue);
   border-radius: 6px;
 }
 
@@ -37,11 +38,11 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(transparent, var(--pastel));
+  background: var(--pastel);
 }
 
-.App {
-  font-family: 'Poppins', sans-serif;
+.main-container {
+  font-family: 'Raleway', sans-serif;
   background-color: var(--bg);
   color: var(--lightblue)
 }
@@ -50,10 +51,21 @@ a {
   text-decoration: none;
 }
 
+.section-title-container {
+  padding-bottom: 1rem;
+}
+
 .section-title {
-  text-align: center;
-  font-size: 2.5rem;
-  padding: 0 0 2.5rem 0;
+  color: var(--green);
+  text-decoration: underline;
+  text-decoration-color: var(--pastel);
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: var(--white);
 }
 
 .btns-container {
@@ -62,7 +74,6 @@ a {
 
 .btn {
   margin-right: 2rem;
-  font-family: 'Roboto Slab', sans-serif;
   padding: .7rem;
   border: 2px solid var(--lightblue);
   border-radius: .5rem;

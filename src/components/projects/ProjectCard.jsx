@@ -1,6 +1,7 @@
-import './project-card.css';
+import '../../styles/global.css';
+import '../../styles/projectCard.css';
 
-export default function ProjectCard() {
+export const ProjectCard = () => {
     return (
         <div className="project-card">
             <div className="project-img">

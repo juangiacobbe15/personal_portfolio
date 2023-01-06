@@ -1,6 +1,7 @@
-import './skill-card.css';
+import '../../styles/global.css';
+import '../../styles/skillCard.css';
 
-export default function SkillCard() {
+export const SkillCard = () => {
     return (
         <div className="skill-card">
             <img src="#" alt="skill" />

@@ -30,6 +30,7 @@
 }
 
 .link {
+    cursor: pointer;
     color: var(--lightblue);
     margin: 0 10px;
     font-weight: 600;

@@ -1,11 +1,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-import ViewMoreBtn from '../view-more-btn/ViewMoreBtn';
+import { Contact } from './ContactForm';
 
-import './footer.css';
+import '../../styles/footer.css';
 
-export default function Footer() {
+export const Footer = () => {
     return (
         <div className="footer">
             <h1>Contact me!</h1>
@@ -15,10 +15,7 @@ export default function Footer() {
                     <a href="https://github.com/juangiacobbe15" target="_blank"><FontAwesomeIcon icon={faInstagram} className='icon'/></a>
             </div>
 
-            <ViewMoreBtn 
-                value='Send me a message' 
-                path='contact'
-            />
+            <Contact />
         </div>
     );
 }
