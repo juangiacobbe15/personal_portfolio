@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { Skills } from './Skills';
 
@@ -26,8 +26,8 @@ export const About = () => {
                         <p>You can contact me to start collaborating in my social networks or you 
                             can send me a message through this form</p>
                         <div className="btns-container">
-                            <a href="https://www.linkedin.com/in/juan-ignacio-giacobbe-578218227" target="_blank"><FontAwesomeIcon icon={faLinkedin} className=''/></a>
-                            <a href="https://github.com/juangiacobbe15" target="_blank"><FontAwesomeIcon icon={faGithub} className=''/></a>
+                            <a href="https://www.linkedin.com/in/juan-ignacio-giacobbe-578218227" target="_blank"><FontAwesomeIcon icon={faLinkedin} className='icon'/></a>
+                            <a href="https://github.com/juangiacobbe15" target="_blank"><FontAwesomeIcon icon={faGithub} className='icon'/></a>
                         </div>
                     </div>
                 </div>

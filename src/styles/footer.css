@@ -1,12 +1,25 @@
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 2rem;
+    height: 100vh;
 }
 
-.icons {
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(471px, 1fr));
+    width: 992px;
+
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .icons {
     padding: 2rem;  
     margin-bottom: 1rem;  
 }
@@ -20,4 +33,4 @@
 
 .icon:hover {
     color: var(--pastel);
-}
+} */

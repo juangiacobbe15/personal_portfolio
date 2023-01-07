@@ -7,9 +7,8 @@
 .about-grid {
     margin-bottom: 2rem;
     display: grid;
-    height: 50%;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(471px, 1fr));
+    width: 992px;
 }
 
 .about-text {

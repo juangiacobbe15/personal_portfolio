@@ -1,3 +1,5 @@
+import { Link } from 'react-scroll'
+
 import '../styles/home.css';
 import '../styles/global.css';
 
@@ -11,8 +13,8 @@ export const Home = () => {
                     <p>more text</p>
                 </div>
                 <div className="btns-container">
-                    <button className="btn" data-aos="fade-down" data-aos-delay='2000' >Download resume &#128100;</button>
-                    <button className="btn" data-aos="fade-down" data-aos-delay='2000' >Contact me &#9993;</button>
+                    <button className="btn" data-aos="fade-down" data-aos-delay='1000' >Download resume &#128100;</button>
+                    <Link to='contact' className="btn" data-aos="fade-zoom-in" data-aos-delay='1000' >Contact me &#9993;</Link>
 
                 </div>
             </section>
