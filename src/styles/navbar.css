@@ -1,9 +1,10 @@
 .navbar {
+    width: 100%;
+    position: fixed;
     background-color: var(--bg);
 }
 
 .nav {
-    
     background-color: red;
 }
 
@@ -29,4 +30,8 @@
 
 .link:hover {
     color: var(--pastel);
+}
+
+.hamb {
+    background-color: var(--lightblue);
 }

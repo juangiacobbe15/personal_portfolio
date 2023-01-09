@@ -15,9 +15,9 @@ export const NavBar = () => {
             <Navbar className='navbar' expand="lg">
                 <Container>
                     <Link to='home' className='logo' data-aos='fade-down' exact >JIG</Link>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" className='hamb'/>
+                    <Navbar.Collapse id="basic-navbar-nav" >
+                        <Nav className="ms-auto p-4">
                             <Link to='home' className='link' exact>Home</Link>
                             <Link to='about' className='link'>About me</Link>
                             <Link to='projects' className='link'>Projects</Link>
