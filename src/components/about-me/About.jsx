@@ -5,19 +5,18 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { Skills } from './Skills';
 
 import '../../styles/global.css';
-import '../../styles/about.css';
 
 export const About = () => {
     return (
         <>
-            <Container fluid className='d-flex justify-content-center flex-column p-2 about'>
+            <Container fluid className='d-flex justify-content-center flex-column p-2 mb-3 about'>
                 <Container>
                     <Row className='justify-content-md-center'>
-                        <Col className='about-img' xs={12} md={6}>
+                        <Col className='about-img d-flex justify-content-center align-center' xs={12} md={6}>
                             <img src="https://tse2.mm.bing.net/th?id=OIP.LfYPMTYF5U9QEHJCiVRorQHaEK&pid=Api&P=0" alt="juan" className='img'/>
                         </Col>
                         <Col xs={12} md={6}>
-                            <div className="about-text">
+                            <div className="p-2">
                                 <div className="section-title-container">
                                     <h1 className="section-title " name='about'>About me</h1>
                                     <p className='section-subtitle'>Know a little more about me :)</p>

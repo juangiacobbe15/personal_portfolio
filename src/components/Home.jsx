@@ -14,8 +14,8 @@ export const Home = () => {
                     <p>more text</p>
                 </div>
                 <div className="btns-container">
-                    <Link className="btn" data-aos="fade-down" data-aos-delay='1000' >Download resume &#128100;</Link>
-                    <Link to='contact' className="btn" data-aos="fade-zoom-in" data-aos-delay='1000' >Contact me &#9993;</Link>
+                    <Link className="btn" >Download resume &#128100;</Link>
+                    <Link to='contact' className="btn" >Contact me &#9993;</Link>
                 </div>
         </Container>
     );

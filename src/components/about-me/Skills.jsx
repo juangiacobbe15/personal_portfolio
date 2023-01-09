@@ -10,7 +10,6 @@ import React from '../../assets/react.png';
 import Github from '../../assets/github.png';
 
 import '../../styles/global.css';
-import '../../styles/skills.css';
 
 export const Skills = () => {
     return (
@@ -20,7 +19,7 @@ export const Skills = () => {
                 <p className="section-subtitle">Here are some of the technologies that i've worked with</p>
             </div>
 
-            <Container fluid className="d-flex justify-content-center align-center flex-column skills-grid">
+            <Container fluid className="d-flex justify-content-center align-center flex-column">
                 <Row className='justify-content-md-center'>
                     <Col xs={6} md={4}>
                         <SkillCard imgSrc={HTML} skill='HTML 5'/>

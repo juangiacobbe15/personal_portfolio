@@ -18,19 +18,3 @@
     align-items: center;
     flex-direction: column;
 }
-
-/* .icons {
-    padding: 2rem;  
-    margin-bottom: 1rem;  
-}
-
-.icon {
-    margin: 0 2rem;
-    font-size: 4rem;
-    color: var(--lightblue);
-    transition: var(--transition);
-}
-
-.icon:hover {
-    color: var(--pastel);
-} */
