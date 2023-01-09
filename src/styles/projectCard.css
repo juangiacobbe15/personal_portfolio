@@ -1,10 +1,11 @@
-.project-card {
+/* .project-card {
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column; 
     border-radius: .5rem;
     border: 2px solid var(--green);
+     height: 500px; 
 }
 
 .project-text {
@@ -34,4 +35,8 @@
     border: 2px solid var(--pastel);
     color: var(--pastel);
     background-color: var(--bg);
+} */
+
+.project-card {
+    margin: 2rem;
 }

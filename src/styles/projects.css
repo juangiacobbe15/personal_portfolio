@@ -1,4 +1,4 @@
-.projects {
+/* .projects {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,4 +11,4 @@
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
-}
+} */
