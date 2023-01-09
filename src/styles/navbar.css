@@ -1,9 +1,10 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem;
-    height: 15vh;
+    background-color: var(--bg);
+}
+
+.nav {
+    
+    background-color: red;
 }
 
 .logo {
@@ -11,22 +12,12 @@
     font-size: 1.5rem;
     font-weight: 600;
     cursor: pointer;
+    margin-right: 2rem;
     transition: var(--transition);
 }
 
 .logo:hover {
     color: var(--pastel);
-}
-
-.navigation {
-    font-size: 1.1rem;
-    display: flex;
-    flex-direction: row;
-}
-
-.list {
-    display: flex;
-    flex-direction: row;
 }
 
 .link {

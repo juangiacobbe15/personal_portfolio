@@ -1,30 +1,31 @@
 import { Link } from 'react-scroll';
 
+import "bootstrap/dist/css/bootstrap.min.css"
+
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
 import '../styles/global.css';
 import '../styles/navbar.css';
 
-export const Navbar = () => {
+export const NavBar = () => {
     return (
         <>
-            <nav className="navbar">
-                <Link to='' className='logo' data-aos='fade-down' exact >JIG</Link>
-                <div className="navigation" data-aos='fade-right'> 
-                    <ul className="list">
-                        <li>
-                            <Link to='' className='link' exact>Home</Link>
-                        </li>
-                        <li>
+            <Navbar className='navbar' expand="lg">
+                <Container>
+                    <Link to='home' className='logo' data-aos='fade-down' exact >JIG</Link>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="me-auto">
+                            <Link to='home' className='link' exact>Home</Link>
                             <Link to='about' className='link'>About me</Link>
-                        </li>
-                        <li>
                             <Link to='projects' className='link'>Projects</Link>
-                        </li>
-                        <li>
                             <Link to='contact' className='link'>Contact me</Link>
-                        </li>
-                    </ul>
-                </div>              
-            </nav>
+                        </Nav>
+                    </Navbar.Collapse> 
+                </Container>
+            </Navbar>
         </>
     );
 }
