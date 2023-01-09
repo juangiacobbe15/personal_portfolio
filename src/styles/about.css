@@ -1,14 +1,6 @@
 .about {
-    display: flex;
-    justify-content: center;
     padding: 2rem;
-}
-
-.about-grid {
-    margin-bottom: 2rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(471px, 1fr));
-    width: 992px;
+    margin-bottom: 1.5rem;
 }
 
 .about-text {

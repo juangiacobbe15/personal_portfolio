@@ -6,7 +6,7 @@ import '../styles/home.css';
 
 export const Home = () => {
     return (
-        <Container fluid className='d-flex justify-content-baseline flex-column align-items-center home'>
+        <Container fluid className='d-flex justify-content-baseline flex-column align-items-center home' name='home'>
             <div className="home-text">
                     <p>Hi &#128075;, i'm</p>
                     <h1 className='big-home-text'>Juan Ignacio Giacobbe,</h1>
