@@ -2,16 +2,12 @@ import { useEffect } from 'react';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { NavBar } from './components/Navbar';
-import { Home } from './components/Home';
-import { About } from './components/about-me/About';
-import { Projects } from './components/projects/Projects';
-import { Footer } from './components/footer/Footer';
+import { NavBar, Home, About, Projects, Footer } from './components';
 
 export const MiPortfolioApp = () => {
+  
   useEffect(() => {
       AOS.init({ duration:'1000' });
   }, []);
